@@ -16,11 +16,11 @@ To make things a bit more fun, each TA added a link to song/video we would like 
 
 Tell us a bit about yourselves! 
 
-	- First student's name:
-	- Favorite singer:
-	- Favorite song:
-	- Desirable grade in Matam:
-	- which TA's song you liked the most:
+	- First student's name: qaiss
+	- Favorite singer: tylor the creator
+	- Favorite song: see u again
+	- Desirable grade in Matam: 99
+	- which TA's song you liked the most:baraa
 
 	- Second student's name:
 	- Favorite singer:

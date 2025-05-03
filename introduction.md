@@ -22,8 +22,8 @@ Tell us a bit about yourselves!
 	- Desirable grade in Matam:
 	- which TA's song you liked the most:
 
-	- Second student's name:
-	- Favorite singer:
-	- Favorite song:
-	- Desirable grade in Matam:
-	- which TA's song you liked the most: 
+	- Second student's name:khalil salman
+	- Favorite singer:playboi carti
+	- Favorite song:brando
+	- Desirable grade in Matam:85
+	- which TA's song you liked the most:regev 

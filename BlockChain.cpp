@@ -121,3 +121,55 @@ bool BlockChainVerifyFile(const BlockChain &blockChain, std::ifstream &file) {
     }
     return false;
 }
+
+void BlockChainCompress(BlockChain& blockChain){
+    BlockChain* current = &blockChain;
+
+    while (current != nullptr) {
+        string sender = current->transaction.sender;
+        string receiver = current->transaction.receiver;
+        unsigned int total_value = current->transaction.value;
+        string latest_timestamp = current->timestamp;
+
+        BlockChain* prev = current;
+        BlockChain* runner = current->next;
+
+
+        while (runner != nullptr &&
+               runner->transaction.sender == sender &&
+               runner->transaction.receiver == receiver) {
+            total_value += runner->transaction.value;
+            latest_timestamp = runner->timestamp;
+
+            // We will delete later
+            prev = runner;
+            runner = runner->next;
+        }
+
+
+        if (prev != current) {
+            current->transaction.value = total_value;
+            current->timestamp = latest_timestamp;
+
+
+            BlockChain* to_delete = current->next;
+            while (to_delete != runner) {
+                BlockChain* next = to_delete->next;
+                delete to_delete;
+                to_delete = next;
+            }
+
+            current->next = runner;
+        }
+
+        current = current->next;
+    }
+}
+
+void BlockChainTransform(BlockChain &blockChain, updateFunction function) {
+    BlockChain *current = &blockChain;
+    while (current != nullptr) {
+        current->transaction.value = function(current->transaction.value);
+        current = current->next;
+    }
+}

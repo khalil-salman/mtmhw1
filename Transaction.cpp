@@ -18,3 +18,9 @@ void TransactionDumpInfo(const Transaction& transaction, ofstream& file){
 string TransactionHashedMessage(const Transaction& transaction){
     return hash(transaction.value,transaction.sender,transaction.receiver);
 }
+bool TransactionVerifyHashedMessage(
+        const Transaction& transaction,
+        string hashedMessage
+){
+     return  TransactionHashedMessage(transaction) == hashedMessage;
+}

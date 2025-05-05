@@ -20,6 +20,8 @@ typedef unsigned int (*updateFunction)(unsigned int);
  *
 */
 struct BlockChain {
+    struct Transaction tra;
+    BlockChain* B_next;
     // You may add any fields you believe are necessary
 };
 

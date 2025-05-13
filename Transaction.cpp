@@ -1,8 +1,7 @@
-#pragma once
 
 #include <string>
 #include <fstream>
-#include <Utilities.h>
+#include "Utilities.h"
 #include "Transaction.h"
 using std::endl;
 using std::ofstream;

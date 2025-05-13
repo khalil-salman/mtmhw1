@@ -10,4 +10,6 @@ add_executable(mtmhw1
         BlockChain.h
         Transaction.h
         Utilities.cpp
-        Utilities.h)
+        Utilities.h
+        Transaction.cpp
+        main.cpp)

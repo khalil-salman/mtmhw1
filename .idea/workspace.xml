@@ -21,23 +21,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ad0721d-4e5c-4aa6-8430-8361e9e686bd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MatamGenericTester" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TechnionMatam" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-43f86655da5e34945c64.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_results.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlockChain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BlockChain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BlockChain.h" beforeDir="false" afterPath="$PROJECT_DIR$/BlockChain.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Transaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Transaction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-5a2a1eb0b3fa1264063b.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-86290b437f96414beba3.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2025-05-05T15-06-16-0800.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-mtmhw1-Debug-aa98ee41bdc354af5299.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mtm_blockchain" beforeDir="false" afterPath="$PROJECT_DIR$/mtm_blockchain" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +91,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746431952855</updated>
       <workItem from="1746431956420" duration="10160000" />
-      <workItem from="1747076532427" duration="10778000" />
+      <workItem from="1747076532427" duration="14502000" />
     </task>
     <servers />
   </component>

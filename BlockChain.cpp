@@ -43,12 +43,8 @@ void BlockChainAppendTransaction(
         const string &receiver,
         const string &timestamp
 ) {
-    Block *add = new Block();
-    Transaction transaction = {value, sender, receiver};
-    add->transaction = transaction;
-    add->timestamp = timestamp;
-    add->next = blockChain.head;
-    blockChain.head = add;
+    Transaction transaction = {value,sender,receiver};
+    BlockChainAppendTransaction(blockChain,transaction,timestamp);
 }
 
 
@@ -104,11 +100,8 @@ void BlockChainDump(const BlockChain& blockChain,ofstream& file) {
     while (to_show != nullptr) {
         transaction_num++;
         file << transaction_num << "." << endl;
-        file << "Sender Name: " << to_show->transaction.sender << endl;
-        file << "Receiver Name: " << to_show->transaction.receiver << endl;
-        file << "Transaction Value: " << to_show->transaction.value << endl;
+        TransactionDumpInfo( to_show->transaction, file);
         file << "Transaction timestamp: " << to_show->timestamp << endl;
-
         to_show = to_show->next;
     }
 }

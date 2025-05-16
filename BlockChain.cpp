@@ -72,12 +72,9 @@ BlockChain BlockChainLoad(std::ifstream& file) {
 
     while (file >> sender >> receiver >> value >> timestamp) {
         Block* newBlock = new Block;
-        newBlock->transaction.sender = sender;
-        newBlock->transaction.receiver = receiver;
-        newBlock->transaction.value = value;
+        newBlock->transaction = {value,sender,receiver};
         newBlock->timestamp = timestamp;
         newBlock->next = nullptr;
-
         if (!head) {
             head = tail = newBlock;
         } else {

@@ -1,3 +1,0 @@
-C:/mat1/mtmhw1/cmake-build-debug/CMakeFiles/mtmhw1.dir
-C:/mat1/mtmhw1/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/mat1/mtmhw1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

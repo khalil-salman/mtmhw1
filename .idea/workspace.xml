@@ -10,9 +10,7 @@
     <option name="reloaded" value="true" />
   </component>
   <component name="CMakeRunConfigurationManager">
-    <generated>
-      <config projectName="mtmhw1" targetName="mtmhw1" />
-    </generated>
+    <generated />
   </component>
   <component name="CMakeSettings">
     <configurations>
@@ -23,9 +21,6 @@
     <list default="true" id="2ad0721d-4e5c-4aa6-8430-8361e9e686bd" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlockChain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/BlockChain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mtm_blockchain" beforeDir="false" afterPath="$PROJECT_DIR$/mtm_blockchain" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_results.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_results.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,9 +68,9 @@
   }
 }</component>
   <component name="RunManager">
-    <configuration name="mtmhw1" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="mtmhw1" TARGET_NAME="mtmhw1" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="mtmhw1" RUN_TARGET_NAME="mtmhw1">
+    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -89,7 +84,7 @@
       <updated>1746431952855</updated>
       <workItem from="1746431956420" duration="10160000" />
       <workItem from="1747076532427" duration="16373000" />
-      <workItem from="1747414481389" duration="2337000" />
+      <workItem from="1747414481389" duration="2928000" />
     </task>
     <servers />
   </component>
